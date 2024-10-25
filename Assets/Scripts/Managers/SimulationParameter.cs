@@ -9,7 +9,8 @@ namespace Simulation
     {
         Galaxy,
         Collision,
-        Universe
+        Universe,
+        Photo
     }
     public class SimulationParameter : MonoBehaviour
     {

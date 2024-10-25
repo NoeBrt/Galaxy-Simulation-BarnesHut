@@ -18,6 +18,8 @@ namespace Simulation
                     return new GalaxyInitializer(simulationParameter);
                 case SimulationType.Collision:
                     return new CollisionInitializer(simulationParameter);
+                case SimulationType.Photo:
+                    return new PhotoInitializer(simulationParameter);
                 default:
                     throw new Exception("Initializer type not found");
             }
